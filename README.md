@@ -18,11 +18,12 @@ Tabel di bawah ini menunjukkan perbandingan metrik evaluasi numerik antara algor
 
 | Model | Mean Squared Error (MSE) | Root Mean Squared Error (RMSE) | Mean Absolute Error (MAE) | R-squared (R²) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Random Forest** | 65249.2023 | 255.4392 | 87.6749 | 0.9996 |
-| **HistGradientBoosting** | 65163.7915 | 255.2720 | 88.0833 | 0.9996 |
+| **Random Forest Regressor** | 30325.896877 | 174.143323 | 78.592300 | 0.972352 |
+| **HistGradientBoosting** | 30402.070451 | 174.361895 | 71.613211 | 0.972283 |
 
 > **Analisis Hasil :**
-> *Perbandingan evaluasi kinerja model. Kedua algoritma menunjukkan akurasi prediktif yang sangat luar biasa dengan nilai R-squared (R²) mencapai **0.9996** (mampu menjelaskan 99.96% varians data). **HistGradientBoosting** sedikit lebih unggul dalam meminimalisir kesalahan kuadrat (nilai MSE dan RMSE yang lebih rendah), menjadikannya kandidat algoritma paling optimal untuk tahap deployment (produksi), mengingat waktu komputasinya yang juga jauh lebih efisien.*
+> *Kedua algoritma menunjukkan performa prediktif yang sangat andal dengan nilai R-squared (R²) mencapai **0.972** (mampu menjelaskan 97.2% varians data kelistrikan).*
+> *Terdapat *trade-off* yang menarik: **Random Forest** sedikit lebih unggul dalam meminimalisir kesalahan besar / outlier (ditunjukkan oleh nilai RMSE yang lebih rendah). Di sisi lain, **HistGradientBoosting** memiliki nilai MAE (Mean Absolute Error) yang lebih rendah (71.61 berbanding 78.59), yang berarti prediksi algoritma ini secara rata-rata lebih dekat dengan nilai aslinya. Mempertimbangkan efisiensi CPU dan waktu komputasi yang jauh lebih cepat, **HistGradientBoosting** tetap menjadi kandidat utama untuk di-deploy ke lingkungan produksi.*
 ---
 
 ## Setup & Instalasi Lokal
