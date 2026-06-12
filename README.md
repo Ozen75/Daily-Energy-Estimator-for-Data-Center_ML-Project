@@ -5,7 +5,8 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red.svg)
 ![GDGoC](https://img.shields.io/badge/GDGoC-Final%20Project-green.svg)
 
-Proyek ini menghadirkan solusi analitik untuk memprediksi konsumsi energi listrik harian pada infrastruktur data center global menggunakan pendekatan *Green Computing* yang efisien.
+Proyek ini menghadirkan solusi analitik untuk memprediksi konsumsi energi listrik harian pada infrastruktur data center global menggunakan pendekatan *Green Computing* yang efisien.<br>
+link web-app : https://energy-estimator-for-data-center.streamlit.app/
 
 ---
 
