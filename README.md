@@ -27,11 +27,7 @@ Tabel di bawah ini menunjukkan perbandingan metrik evaluasi numerik antara algor
 ---
 
 ## Setup & Instalasi Lokal
-
-Sangat disarankan menggunakan *environment manager* seperti **Miniconda atau Anaconda** untuk menjaga isolasi dependensi paket Python Anda.
-
-### Langkah 1: Kloning Repositori
-Buka terminal atau Command Prompt Anda, lalu jalankan perintah kloning ini:
+Buka terminal atau Command Prompt Anda, lalu jalankan perintah ini:
 ```bash
 git clone [https://github.com/Ozen75/Daily-Energy-Estimator-for-Data-Center_ML-Project.git](https://github.com/Ozen75/Daily-Energy-Estimator-for-Data-Center_ML-Project.git)
 cd Daily-Energy-Estimator-for-Data-Center_ML-Project
