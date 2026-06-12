@@ -5,7 +5,7 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red.svg)
 ![GDGoC](https://img.shields.io/badge/GDGoC-Final%20Project-green.svg)
 
-Repositori ini memuat projek akhir *Machine Learning* untuk **Google Developer Groups on Campus (GDGoC) Cohort 2026**. Proyek ini menghadirkan solusi analitik *end-to-end* untuk memprediksi konsumsi energi listrik harian (`Daily_Electricity_Usage_MWh`) pada infrastruktur data center global menggunakan pendekatan *Green Computing* yang efisien.
+Proyek ini menghadirkan solusi analitik untuk memprediksi konsumsi energi listrik harian pada infrastruktur data center global menggunakan pendekatan *Green Computing* yang efisien.
 
 ---
 
